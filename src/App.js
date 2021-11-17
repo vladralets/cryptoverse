@@ -14,16 +14,16 @@ const App = () => (
       <Layout>
         <div className="routes">
           <Switch>
-            <Route exact path="/cryptoverse/">
+            <Route exact path="/">
               <Homepage />
             </Route>
-            <Route exact path="/cryptoverse/exchanges">
+            <Route exact path="/exchanges">
               <Exchanges />
             </Route>
-            <Route exact path="/cryptoverse/cryptocurrencies">
+            <Route exact path="/cryptocurrencies">
               <Cryptocurrencies />
             </Route>
-            <Route exact path="/cryptoverse/crypto/:coinId">
+            <Route exact path="/crypto/:coinId">
               <CryptoDetails />
             </Route>
             <Route exact path="/news">
